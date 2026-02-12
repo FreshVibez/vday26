@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Be My Valentine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@500;700;800&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hearts" aria-hidden="true"></div>
+    <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+    <main class="card reveal">
+      <div class="bear-wrap">
+        <img
+          class="bear-gif"
+          src="https://media1.tenor.com/m/Glql1LPSciQAAAAd/milk-and-mocha-milk-mocha.gif"
+          alt="Animated Milk and Mocha bear"
+        />
+      </div>
+
+      <p class="tag">Valentine's Day</p>
+      <h1>bb will you be my valentines? 🩵🩷</h1>
+
+      <div class="button-zone" id="buttonZone">
+        <button class="btn yes" id="yesBtn" type="button">Yes</button>
+        <button class="btn no" id="noBtn" type="button">No</button>
+      </div>
+
+      <p class="message" id="message" aria-live="polite"></p>
+      <a class="open-letter-btn" id="openLetterBtn" href="letter.html" hidden>
+        Open letter
+      </a>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
